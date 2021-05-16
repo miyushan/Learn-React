@@ -1,7 +1,7 @@
-const BlogList = (props) => {
+const BlogList = ({blogs, word}) => {
 
-    const blogs = props.blogs;
-    const word = props.word;
+    // const blogs = props.blogs;
+    // const word = props.word;
 
     return ( 
         <div className="blog-list">
