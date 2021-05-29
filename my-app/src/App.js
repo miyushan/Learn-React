@@ -1,7 +1,7 @@
 
 import Navbar from'./Navbar';
 import Home from './Home';
-import PracticeUseState from './PracticeUseState';
+import PracticeUseEffect from './PracticeUseEffect';
 
 function App() {
 
@@ -10,7 +10,6 @@ function App() {
       <Navbar />
       <div className="content">
         <Home />
-        <PracticeUseState />
       </div>
     </div>
   );
